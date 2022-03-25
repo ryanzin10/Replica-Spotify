@@ -1,0 +1,34 @@
+:root{
+    --verde-spotify: #1ed760;
+}
+
+.conteudo{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(41, 65, 171);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+    width: 80vw;
+    padding-bottom: 24px;
+}
+.titulo h1{
+    font-size: 150px;
+    font-weight: 900;
+    line-height: 140px;
+    color: var(--verde-spotify);
+    text-align: center;
+}
+
+.subtitulo{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+}
+.subtitulo h6{
+    color: var(--verde-spotify);
+}
