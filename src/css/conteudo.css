@@ -36,4 +36,24 @@
 }
 .subtitulo h6{
     color: var(--verde-spotify);
+    padding-bottom: 40px;
+}
+
+.botaoPrincipal span{
+    padding: 15px 30px;
+    background-color: var(--verde-spotify);
+    font-size: 15px;
+    color: rgb(41, 65, 171);
+    border-radius: 25px;
+    cursor: pointer;
+}
+.botaoPrincipal span:hover{
+    background-color:#16ec61;
+}
+
+.botaoPrincipal:hover{
+    transform: scale(1.03);
+}
+.botaoPrincipal span:active{
+    border: 2px snow solid;
 }
