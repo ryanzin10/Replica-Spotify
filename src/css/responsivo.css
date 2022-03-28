@@ -1,0 +1,58 @@
+@media(max-width: 990px) {
+    .topo{
+        margin: 0;
+    }
+    .logo{
+        padding: 0 20px;
+    }
+    .logo img{
+        max-width:80px;
+        max-height:50px;
+        width: auto;
+        height: auto;
+    }
+    .menu a{
+        padding: 0 5px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .conteudo{
+        background-image: none;
+    }
+    .parte1{
+        margin: 12vh 0;
+    }
+}
+
+@media(max-width: 500px) {
+    #premium, #suporte{
+        display: none;
+    }
+    .titulo h1{
+        font-size: 80px;
+        font-weight: 900;
+        line-height: 70px;
+        color: var(--verde-spotify);
+        text-align: center;
+    }
+    .subtitulo h6{
+        font-size: 14px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    .parte1{
+        flex-direction: column;
+        justify-content: center;
+        margin: 12vh 10vw;
+    }
+    .parte1 img{
+        max-width:100px;
+        max-height:50px;
+        width: auto;
+        height: auto;
+    }
+
+    .parte2{
+        display: none;
+    }
+}
